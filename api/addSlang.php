@@ -22,9 +22,10 @@ if (isset($_FILES['audio']) && $_FILES['audio']['error'] == 0) {
 
 $slang = $_POST['slang'];
 $explanation = $_POST['explanation'];
+$contributor = $_POST['contributor']; // 获取 contributor 字段
 
 // 插入数据
-$sql = "INSERT INTO slangs (imageSrc, slang, explanation, audioSrc) VALUES ('$imageSrc', '$slang', '$explanation', '$audioSrc')";
+$sql = "INSERT INTO slangs (imageSrc, slang, explanation, audioSrc, contributor) VALUES ('$imageSrc', '$slang', '$explanation', '$audioSrc', '$contributor')";
 
 if ($conn->query($sql) === TRUE) {
     echo json_encode(array("message" => "New record created successfully"));

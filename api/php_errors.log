@@ -1,0 +1,30 @@
+[04-Sep-2024 16:35:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'slangdb.users' doesn't exist in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php:30
+Stack trace:
+#0 C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php(30): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php on line 30
+[04-Sep-2024 16:35:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'slangdb.users' doesn't exist in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php:30
+Stack trace:
+#0 C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php(30): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php on line 30
+[04-Sep-2024 16:37:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'slangdb.users' doesn't exist in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php:30
+Stack trace:
+#0 C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php(30): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php on line 30
+[04-Sep-2024 16:38:05 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'slangdb.users' doesn't exist in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php:30
+Stack trace:
+#0 C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php(30): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php on line 30
+[04-Sep-2024 16:38:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'slangdb.users' doesn't exist in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php:30
+Stack trace:
+#0 C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php(30): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php on line 30
+[04-Sep-2024 16:45:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'slangdb.users' doesn't exist in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php:30
+Stack trace:
+#0 C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php(30): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\install area\XAMPP\htdocs\slang-sharing-backend\api\login.php on line 30
