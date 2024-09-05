@@ -4,8 +4,8 @@ header("Content-Type: application/json; charset=UTF-8");
 
 include 'inc/db_connection.php';
 
-// 查询数据
-$sql = "SELECT id, imageSrc, slang, explanation, audioSrc FROM slangs";
+// 查询数据，包含 contributor 和 timestamp 字段
+$sql = "SELECT id, imageSrc, slang, explanation, audioSrc, contributor, timestamp FROM slangs";
 $result = $conn->query($sql);
 
 $slangs = array();
